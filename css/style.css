@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	display: table;
+}
+.list-item {
+	display: table-cell;
+    vertical-align: middle;
+    list-style: none !important;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+.list-item .item {
+	width: 20%;
+	display: inline-block;
+
+}
+.list-item .item a {
+    display: table;
+    width: 100%;
+}
+.list-item .item a img {
+	display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+img {
+	max-width: 100%;
+}
